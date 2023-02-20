@@ -1,8 +1,10 @@
-/* eslint-disable no-unused-vars */
-/* eslint-disable max-classes-per-file */
-import Book, {BookCollection} from './modules/bookcollection.js'
+/* eslint-disable */
+import BookCollection from './modules/bookcollection.js';
 import { DateTime } from './modules/luxon.js';
-import {List, bookList, box, contact2, contact, addNew, date} from './modules/nav.js'
+import {
+  List, bookList, box, contact2, contact, addNew, date,
+} from './modules/nav.js';
+
 const bookCollection = new BookCollection();
 
 List.addEventListener('click', () => {

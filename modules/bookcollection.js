@@ -1,11 +1,6 @@
-export default class Book {
-  constructor(title, author) {
-    this.title = title;
-    this.author = author;
-  }
-}
+import Book from './classbook.js';
 
-export class BookCollection {
+export default class BookCollection {
   constructor() {
     this.collection = [];
     this.bookList = document.getElementById('book-list');
