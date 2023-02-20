@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Awesome Books</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header class="head">
+      <div><h1>Awesome Books</h1></div>
+      <nav>
+        <ul class="navbar">
+          <li id="List">List</li>
+          <li id="addNew">Add new</li>
+          <li id="contact">Contact</li>
+        </ul>
+      </nav>
+    </header>
+    <p id="dateTime"></p>
+    <div class="collection" id="book-collection">
+      <h2 class="book-heading">Awesome Books</h2>
+      <div id="book-list"></div>
+      <div class="sec hidden" id="box">
+        <h3 class="tr">Add a new book</h3>
+        <label class="leb" for="book-title"></label>
+        <input
+          type="text"
+          id="book-title"
+          name="book-title"
+          placeholder="Title"
+        />
+        <br />
+        <label class="leb" for="book-author"></label>
+        <input
+          type="text"
+          id="book-author"
+          name="book-author"
+          placeholder="Author"
+        />
+        <br />
+        <button class="add-btn" id="add-book-btn">Add</button>
+      </div>
+    </div>
+    <section class="contact-section hidden" id="contact-section">
+      <h2 class="contact-section-heading">Contact Information</h2>
+      <p>
+        Do have any question or you want to say "Hello"? <br />
+        You can reach out to us!
+      </p>
+      <ul>
+        <span>Our email: jumahqueenter@gmail.com</span>
+        <span>Our phone number: +254710976397</span>
+        <span>Our address: Nairobi, Kenya, 5577-00100</span>
+      </ul>
+    </section>
+    <footer class="footer">All Rights are reserved .</footer>
+    <script type="module" src="index.js"></script>
+  </body>
+</html>
