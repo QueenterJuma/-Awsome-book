@@ -5,6 +5,7 @@ import {
 } from './modules/nav.js';
 
 const bookCollection = new BookCollection();
+const addBookBtn = document.getElementById('add-book-btn');
 
 List.addEventListener('click', () => {
   bookList.classList.remove('hidden');
@@ -24,3 +25,6 @@ addNew.addEventListener('click', () => {
   contact2.classList.add('hidden');
 });
 date.innerHTML = `${DateTime.now().toLocaleString(DateTime.DATETIME_MED)}`;
+addBookBtn.addEventListener('click', () => {
+  bookCollection.addBook();
+});

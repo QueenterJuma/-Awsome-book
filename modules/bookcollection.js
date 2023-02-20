@@ -6,14 +6,11 @@ export default class BookCollection {
     this.bookList = document.getElementById('book-list');
     this.bookTitle = document.getElementById('book-title');
     this.bookAuthor = document.getElementById('book-author');
-    this.addBookBtn = document.getElementById('add-book-btn');
 
     if (localStorage.getItem('bookCollection')) {
       this.collection = JSON.parse(localStorage.getItem('bookCollection'));
       this.renderBookList();
     }
-
-    this.addBookBtn.addEventListener('click', this.addBook.bind(this));
   }
 
   addBook = () => {
