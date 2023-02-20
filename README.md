@@ -96,19 +96,13 @@ To run the project, open index.html in your text editor,right-click and open wit
  
 <!-- AUTHORS -->
  
-## 👥 Authors <a name="author"></a>
+## 👥 Author <a name="author"></a>
 
 👤 **Queenter Juma**
 
 - GitHub:(https://github.com/QueenterJuma)
 - Twitter: (https://twitter.com/QueenJumah)
 - LinkedIn:(https://www.linkedin.com/in/queenter-juma-54a0b1222/)
-
-👤 **Tracy-miranja**
- 
-- GitHub: [@githubhandle](https://github.com/Tracy-miranja)
-- Twitter: [@twitterhandle](https://twitter.com/tracymiranja)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/tracymiranja)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
  
