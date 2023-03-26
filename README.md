@@ -153,7 +153,7 @@ I would like to thank  all my Mricronauts partners for support and microverse fo
  
 ## 📝 License <a name="license"></a>
  
-This project is [MIT](https://github.com/Tracy-miranja/Awesome-book/blob/main/LICENCE licensed.
+This project is [MIT](./LICENSE) licensed.
  
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 README.md
