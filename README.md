@@ -55,7 +55,7 @@ One attachment
  
 ## 🚀 Live Demo <a name="live-demo"></a>
  
-- [<a href="#">Coming soon...]
+- <a href="#">https://queenterjuma.github.io/-Awsome-book/
  
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
  
